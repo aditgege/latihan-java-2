@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f336a9e-3b1e-4881-9041-612356da6e92" name="Default Changelist" comment="" />
+    <list default="true" id="3f336a9e-3b1e-4881-9041-612356da6e92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sunwell/entity/Dokumen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sunwell/http/controller/DokumenCtrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sunwell/repository/DokumenRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sunwell/service/DokumenSvc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sunwell/http/controller/PersonCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sunwell/http/controller/PersonCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sunwell/http/controller/PersonCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sunwell/http/controller/PersonCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Xc3EDha5v53ZxL8vAihFjTraNl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,10 +36,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27604872" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -84,9 +100,10 @@
       <screen x="46" y="27" width="1314" height="741" />
     </state>
     <state x="161" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/46.27.1314.741@46.27.1314.741" timestamp="1581334004469" />
-    <state x="511" y="84" width="374" height="633" key="#com.intellij.ide.util.MemberChooser" timestamp="1581334815707">
+    <state x="511" y="84" width="374" height="633" key="#com.intellij.ide.util.MemberChooser" timestamp="1581416884974">
       <screen x="46" y="27" width="1314" height="741" />
     </state>
+    <state x="511" y="84" width="374" height="633" key="#com.intellij.ide.util.MemberChooser/46.27.1314.741/46.27.1314.741@46.27.1314.741" timestamp="1581416884974" />
     <state x="511" y="84" width="374" height="633" key="#com.intellij.ide.util.MemberChooser/46.27.1314.741@46.27.1314.741" timestamp="1581334815707" />
     <state x="260" y="325" width="885" height="152" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581332251386">
       <screen x="46" y="27" width="1314" height="741" />
@@ -96,21 +113,38 @@
       <screen x="46" y="27" width="1314" height="741" />
     </state>
     <state x="376" y="269" width="643" height="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/46.27.1314.741@46.27.1314.741" timestamp="1581332645078" />
-    <state width="1268" height="203" key="GridCell.Tab.0.bottom" timestamp="1581336168175">
+    <state width="1268" height="264" key="GridCell.Tab.0.bottom" timestamp="1581422088703">
       <screen x="46" y="27" width="1314" height="741" />
     </state>
-    <state width="1268" height="203" key="GridCell.Tab.0.bottom/46.27.1314.741@46.27.1314.741" timestamp="1581336168175" />
-    <state width="1268" height="203" key="GridCell.Tab.0.center" timestamp="1581336168174">
+    <state width="1268" height="264" key="GridCell.Tab.0.bottom/46.27.1314.741/46.27.1314.741@46.27.1314.741" timestamp="1581422088703" />
+    <state width="1268" height="203" key="GridCell.Tab.0.bottom/46.27.1314.741@46.27.1314.741" timestamp="1581336910999" />
+    <state width="1268" height="264" key="GridCell.Tab.0.center" timestamp="1581422088703">
       <screen x="46" y="27" width="1314" height="741" />
     </state>
-    <state width="1268" height="203" key="GridCell.Tab.0.center/46.27.1314.741@46.27.1314.741" timestamp="1581336168174" />
-    <state width="1268" height="203" key="GridCell.Tab.0.left" timestamp="1581336168172">
+    <state width="1268" height="264" key="GridCell.Tab.0.center/46.27.1314.741/46.27.1314.741@46.27.1314.741" timestamp="1581422088703" />
+    <state width="1268" height="203" key="GridCell.Tab.0.center/46.27.1314.741@46.27.1314.741" timestamp="1581336910999" />
+    <state width="1268" height="264" key="GridCell.Tab.0.left" timestamp="1581422088702">
       <screen x="46" y="27" width="1314" height="741" />
     </state>
-    <state width="1268" height="203" key="GridCell.Tab.0.left/46.27.1314.741@46.27.1314.741" timestamp="1581336168172" />
-    <state width="1268" height="203" key="GridCell.Tab.0.right" timestamp="1581336168174">
+    <state width="1268" height="264" key="GridCell.Tab.0.left/46.27.1314.741/46.27.1314.741@46.27.1314.741" timestamp="1581422088702" />
+    <state width="1268" height="203" key="GridCell.Tab.0.left/46.27.1314.741@46.27.1314.741" timestamp="1581336910998" />
+    <state width="1268" height="264" key="GridCell.Tab.0.right" timestamp="1581422088703">
       <screen x="46" y="27" width="1314" height="741" />
     </state>
-    <state width="1268" height="203" key="GridCell.Tab.0.right/46.27.1314.741@46.27.1314.741" timestamp="1581336168174" />
+    <state width="1268" height="264" key="GridCell.Tab.0.right/46.27.1314.741/46.27.1314.741@46.27.1314.741" timestamp="1581422088703" />
+    <state width="1268" height="203" key="GridCell.Tab.0.right/46.27.1314.741@46.27.1314.741" timestamp="1581336910999" />
+    <state x="192" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1581397154501">
+      <screen x="46" y="27" width="1314" height="741" />
+    </state>
+    <state x="192" y="31" width="1022" height="737" key="SettingsEditor/46.27.1314.741/46.27.1314.741@46.27.1314.741" timestamp="1581397154501" />
+    <state x="192" y="32" key="SettingsEditor/46.27.1314.741@46.27.1314.741" timestamp="1581336798609" />
+    <state x="359" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1581397102727">
+      <screen x="46" y="27" width="1314" height="741" />
+    </state>
+    <state x="359" y="225" key="com.intellij.ide.util.TipDialog/46.27.1314.741/46.27.1314.741@46.27.1314.741" timestamp="1581397102727" />
+    <state x="367" y="174" key="run.anything.popup" timestamp="1581417097393">
+      <screen x="46" y="27" width="1314" height="741" />
+    </state>
+    <state x="367" y="174" key="run.anything.popup/46.27.1314.741/46.27.1314.741@46.27.1314.741" timestamp="1581417097393" />
   </component>
 </project>
