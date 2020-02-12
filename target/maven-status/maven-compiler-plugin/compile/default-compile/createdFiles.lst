@@ -21,6 +21,7 @@ sunwell/JpaConfiguration.class
 sunwell/entity/Hewan.class
 sunwell/entity/Game.class
 sunwell/controller/GameDevCtrl.class
+sunwell/service/NotFounfExceptions.class
 sunwell/http/res/json/PersonResp.class
 sunwell/entity/GameChild.class
 sunwell/repository/BookRepository.class
